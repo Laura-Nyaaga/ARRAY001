@@ -25,7 +25,8 @@ return Array.from(new Set(duplicates));
 let totalObjects = ["boy", "man", "girl", "school", "girl", "woman"]
 console.log(duplicateArray(totalObjects));
 //5.Write a JS script to search for the following word in the array."food"If the word is present, return it else return "the search word was not found"let arr5 = ["the", "way", "x", 4]
-
+     let arr5 = ["the", "way", "x", 4];
+    console.log(arr5.indexOf("food"));
 //6.Write a JS script to sort the following string:let word = "renniw"
 let word = "renniw"
 let newWord = word.split("").reverse().join("");
